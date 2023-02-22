@@ -1,4 +1,5 @@
-# Student Mark Grading System...
+from tabulate import tabulate
+import pandas as pd
 name = input("Enter Student Name: ")
 print("Enter Student Marks in....")
 od = int(input("Odia: "))
@@ -20,3 +21,10 @@ elif perc >= 30:
     print("Grade D")
 else:
     print("Grade F")
+# Printing Marks is Tabular Form
+# list1=[od, eng, mth, sc, his]
+# tab= pd.DataFrame(list1)
+# print(tab)
+# Using Tabulate
+print(tabulate([['Odia', od], ['English', eng], ['Mathematics', mth], ['Science', sc], ['History', his]], headers=['Subject', 'Marks']))
+
