@@ -1,4 +1,3 @@
-# Student Mark Grading System...
 name = input("Enter Student Name: ")
 print("Enter Student Marks in....")
 od = int(input("Odia: "))
