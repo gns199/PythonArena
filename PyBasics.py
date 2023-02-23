@@ -13,7 +13,9 @@ area= (a+b+c)/2;
 print("Area is",area)
 
 
-# Python Program to Solve Quadratic Equation
+# Python Program to Solve Quadratic Equation -b+ root(b**2-4ac)/2a
+
+
 # Python Program to Swap Two Variables
 # Python Program to Generate a Random Number
 # Python Program to Convert Kilometers to Miles
