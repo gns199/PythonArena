@@ -26,3 +26,7 @@ print(tabulate([['Odia', od], ['English', eng],
                 ['Mathematics', mth], ['Science', sc],
                 ['History', his]],
                headers=['Subject', 'Marks']))
+from texttable import Texttable
+t = Texttable()
+t.add_rows([['Odia', od], ['English', eng], ['Mathematics', mth], ['Science', sc], ['History', his]])
+print(t.draw())
