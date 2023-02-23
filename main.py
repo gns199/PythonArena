@@ -1,4 +1,5 @@
 # Student Mark Grading System...
+from tabulate import tabulate
 name = input("Enter Student Name: ")
 print("Enter Student Marks in....")
 od = int(input("Odia: "))
@@ -20,3 +21,8 @@ elif perc >= 30:
     print("Grade D")
 else:
     print("Grade F")
+
+print(tabulate([['Odia', od], ['English', eng],
+                ['Mathematics', mth], ['Science', sc],
+                ['History', his]],
+               headers=['Subject', 'Marks']))
