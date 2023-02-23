@@ -6,7 +6,11 @@ sqrt= num**(1/2);
 print("Square Root is", sqrt)
 
 # Python Program to Calculate the Area of a Triangle
-a=int(input("Enter length "))
+a=int(input("Enter 1st length: "))
+b=int(input("Enter 2nd length: "))
+c=int(input("Enter 3rd length: "))
+area= (a+b+c)/2;
+print("Area is",area)
 
 
 # Python Program to Solve Quadratic Equation
