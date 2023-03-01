@@ -48,7 +48,17 @@ elif a<0:
 else:
     print("Zero")
 # Python Program to Check if a Number is Odd or Even
+num=int(input("Enter a number: "))
+if num%2==0:
+    print("It is a even number")
+else:
+    print("It is odd number")
 # Python Program to Check Leap Year
+year=int(input("Enter Year: "))
+if year%4==0:
+    print("It is leap year")
+else:
+    print("It is not a leap year")
 # Python Program to Find the Largest Among Three Numbers
 # Python Program to Check Prime Number
 # Python Program to Print all Prime Numbers in an Interval
