@@ -40,6 +40,13 @@ far=(cel*1.8)+32
 print(far,"Fahrenheit")
 
 # Python Program to Check if a Number is Positive, Negative or 0
+a=int(input("Enter a number"))
+if a>0:
+    print("Positive")
+elif a<0:
+    print("Negative")
+else:
+    print("Zero")
 # Python Program to Check if a Number is Odd or Even
 # Python Program to Check Leap Year
 # Python Program to Find the Largest Among Three Numbers
