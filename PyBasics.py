@@ -71,6 +71,14 @@ elif c>a:
     print(c,"is greater")
 else:
     print("Incorrect Number")
+# Python Program for simple interest
+p=int(input("Enter Principal Amount: "))
+t=int(input("Enter time duration: "))
+r=int(input("Enter rate of interest: "))
+i=(p*t*r)/100;
+print("Interest is:",i)
+print("Total is: ",p+i)
+
 # Python Program to Check Prime Number
 # Python Program to Print all Prime Numbers in an Interval
 # Python Program to Find the Factorial of a Number
