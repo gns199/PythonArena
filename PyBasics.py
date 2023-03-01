@@ -1,8 +1,8 @@
 # .................................. Python Basics Programs....................................
 
 # Find Square root of a number
-num= int(input("Enter a Number"));
-sqrt= num**(1/2);
+num= int(input("Enter a Number"))
+sqrt= num**(1/2)
 print("Square Root is", sqrt)
 
 # Python Program to Calculate the Area of a Triangle
