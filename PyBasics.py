@@ -14,7 +14,11 @@ print("Area is",area)
 
 
 # Python Program to Solve Quadratic Equation -b+ root(b**2-4ac)/2a
-
+b=int(input("Enter a number"))
+a=int(input("Enter 2nd no"))
+c=int(input("Enter 3rd no"))
+d=(-b+((b**2-(4*a*c))**0.5))/(2*a)
+print(d)
 
 # Python Program to Swap Two Variables
 # Python Program to Generate a Random Number
