@@ -21,9 +21,24 @@ d=(-b+((b**2-(4*a*c))**0.5))/(2*a)
 print(d)
 
 # Python Program to Swap Two Variables
+a = int(input("Enter a number"))
+b=int(input("Enter 2nd number"))
+c=a
+a=b
+b=c
+print(a)
+print(b)
 # Python Program to Generate a Random Number
 # Python Program to Convert Kilometers to Miles
+km = int(input("Enter in KMs"))
+miles=km*0.621
+print(miles,"miles")
+
 # Python Program to Convert Celsius To Fahrenheit
+cel = int(input("Enter Temperature"))
+far=(cel*1.8)+32
+print(far,"Fahrenheit")
+
 # Python Program to Check if a Number is Positive, Negative or 0
 # Python Program to Check if a Number is Odd or Even
 # Python Program to Check Leap Year
