@@ -28,7 +28,7 @@ a=b
 b=c
 print(a)
 print(b)
-# Python Program to Generate a Random Number
+
 # Python Program to Convert Kilometers to Miles
 km = int(input("Enter in KMs"))
 miles=km*0.621
@@ -59,6 +59,7 @@ if year%4==0:
     print("It is leap year")
 else:
     print("It is not a leap year")
+
 # Python Program to Find the Largest Among Three Numbers
 a=int(input("Enter 1st Number"))
 b=int(input("Enter 2nd Number"))
@@ -79,7 +80,47 @@ i=(p*t*r)/100;
 print("Interest is:",i)
 print("Total is: ",p+i)
 
+#Area of Circle
+r=int(input("Enter radius"))
+area=3.14*r*r
+print(area)
+
+#Check Vowel or Consonant using if-else
+a=input("Enter an alphabet: ")
+if a=="a" or a=="e" or a=="i" or a=="o" or a=="u":
+    print("It is a vowel")
+else:
+    print("It is a consonant")
+#Average of three numbers
+a=int(input("Enter First Number: "))
+b=int(input("Enter Second Number: "))
+c=int(input("Enter Third Number: "))
+avg=(a+b+c)/3
+print("Average is: ",avg)
+#Find Area of Square
+l=int(input("Enter Length"))
+area=l**2
+print(area)
+
+#Find Area of Rectangle
+l=int(input("Enter Length: "))
+b=int(input("Enter breadth: "))
+print("area is: ",l*b)
+
+#Find Area of Triangle based on Base and Height
+b=int(input("Enter Base of Triangle: "))
+h=int(input("Enter Height of Triangle: "))
+area=(1/2)*b*h
+print(area)
+
+#circumferrence of a circle
+r=int(input("Enter Radius:"))
+circ=2*3.14*r
+print("The Circumferrence is:",circ)
+
 # Python Program to Check Prime Number
+
+# Python Program to Generate a Random Number
 # Python Program to Print all Prime Numbers in an Interval
 # Python Program to Find the Factorial of a Number
 # Python Program to Display the multiplication Table
