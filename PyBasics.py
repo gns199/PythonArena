@@ -60,6 +60,17 @@ if year%4==0:
 else:
     print("It is not a leap year")
 # Python Program to Find the Largest Among Three Numbers
+a=int(input("Enter 1st Number"))
+b=int(input("Enter 2nd Number"))
+c=int(input("Enter 3rd Number"))
+if a>b:
+    print(a,"is greater")
+elif b>c:
+    print(b,"is greater")
+elif c>a:
+    print(c,"is greater")
+else:
+    print("Incorrect Number")
 # Python Program to Check Prime Number
 # Python Program to Print all Prime Numbers in an Interval
 # Python Program to Find the Factorial of a Number
