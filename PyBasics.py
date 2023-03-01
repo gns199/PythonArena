@@ -118,8 +118,58 @@ r=int(input("Enter Radius:"))
 circ=2*3.14*r
 print("The Circumferrence is:",circ)
 
-# Python Program to Check Prime Number
+#Python program to find Cube of a Number
+n=int(input("Enter a number"))
+cube=n**3
+print("Cube is: ",cube)
 
+#Python program to find square root of a Number
+n=int(input("Enter a number"))
+sqrt=n**0.5
+print("Square root is: ",sqrt)
+
+#Python program to find Square of a Number
+n=int(input("Enter a number"))
+sq=n**2
+print("Square is: ",sq)
+
+'''
+Python Program to Check Prime Number
+Python program for Arithmetic Operations
+Python program to print Calendar
+Python program to Print Natural number 1 to N
+Python program for Leap Year
+Python program to find Odd or Even
+Python program to print Even Numbers from 1 to 100
+Python program to print Odd Numbers from 1 to 100
+Python Program to Print Negative Numbers in a Range
+Python Program to Print Positive Numbers in a Range
+Python program to find Positive or Negative
+Python program to find Profit Or Loss
+Python program to find Square of a Number
+Python program to find Square root of a Number
+Python Program to find all divisors of an integer
+Python Program to find Compound Interest
+Python program to check Number Divisible by 5 and 11
+Python program to find Power of a Number
+Python program for Multiplication Table
+Python example to find Roots of a Quadratic Equation
+Python example to find Student Grade
+Python example to find Simple Interest
+Python Program to Read 10 Numbers and Find their Sum and Average
+Python Program to Print First 10 Even Natural Numbers
+Python Program to Print First 10 Natural Numbers
+Python Program to Print First 10 Natural Numbers in Reverse
+Python Program to Print First 10 Odd Natural Numbers
+Python program to Print Natural number 1 to N
+Python program to print Natural Numbers in Reverse Order
+Python example to find Sum and Average of Natural Numbers
+Python Program to Find Sum of 10 Numbers and Skip Negative Numbers
+Python Program to Find Sum of 10 Numbers until user enters Positive Numbers
+Python example to Calculate Electricity Bill
+Python Program to Find Distance Between Two Points
+Python Program to Get Current Date and Time
+Python Program to Make a Simple Calculator
 # Python Program to Generate a Random Number
 # Python Program to Print all Prime Numbers in an Interval
 # Python Program to Find the Factorial of a Number
@@ -137,4 +187,4 @@ print("The Circumferrence is:",circ)
 # Python Program to Find the Factors of a Number
 # Python Program to Make a Simple Calculator
 # Python Program to Shuffle Deck of Cards
-
+'''
