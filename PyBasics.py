@@ -72,6 +72,7 @@ elif c>a:
     print(c,"is greater")
 else:
     print("Incorrect Number")
+
 # Python Program for simple interest
 p=int(input("Enter Principal Amount: "))
 t=int(input("Enter time duration: "))
@@ -91,12 +92,14 @@ if a=="a" or a=="e" or a=="i" or a=="o" or a=="u":
     print("It is a vowel")
 else:
     print("It is a consonant")
+
 #Average of three numbers
 a=int(input("Enter First Number: "))
 b=int(input("Enter Second Number: "))
 c=int(input("Enter Third Number: "))
 avg=(a+b+c)/3
 print("Average is: ",avg)
+
 #Find Area of Square
 l=int(input("Enter Length"))
 area=l**2
