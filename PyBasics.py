@@ -159,6 +159,14 @@ print(num*8)
 print(num*9)
 print(num*10)
 
+# 24. Python Program to Find Numbers Divisible by Another Number
+num=int(input("Enter the number you want to divide: "))
+div=int(input("Enter the divisor: "))
+if num%div==0:
+    print("It is divisible")
+else:
+    print("Not divisible")
+
 '''
 Python Program to Check Prime Number
 Python program for Arithmetic Operations
