@@ -166,7 +166,40 @@ if num%div==0:
     print("It is divisible")
 else:
     print("Not divisible")
+# 25. Program for printing natural numbers
+num=int(input("Enter a Number: "))
+for i in range(num):
+    print(i)
 
+# 26. program for printing natural numbers in reverse
+num=int(input("Enter a Number"))
+for i in range(num,1,-1):
+    print(i)
+    
+# 27. Printing even numbers in sequence
+num=int(input("Enter the number"))
+for i in range(0,num,2):
+    print(i)
+    
+# 28. printing even numbers in reverse
+num=int(input("Enter a number"))
+for i in range(num,0,-1):
+    if i%2==0:
+        print(i)
+        
+# 29. printing odd numbers in reverse
+num=int(input("Enter a number"))
+for i in range(num,0,-1):
+    if i%2!=0:
+        print(i)
+
+# 30. Python program to print Even & Odd Numbers from 1 to 100
+num=int(input("Enter a number"))
+for i in range(100):
+    if i%2==0:
+        print("Even is ",i)
+    else:
+        print("Odd is",i)
 '''
 Python Program to Check Prime Number
 Python program for Arithmetic Operations
