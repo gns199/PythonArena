@@ -136,6 +136,29 @@ n=int(input("Enter a number"))
 sq=n**2
 print("Square is: ",sq)
 
+# 22. Python program to check Number Divisible by 5 and 11
+num=int(input("Enter a number: "))
+if num%5==0:
+    print("It is divisible by 5")
+elif num%11==0:
+    print("It is divisible by 11")
+else:
+    print("This is not divisible by 5 or 11")
+
+# 23. Python program for Multiplication Table
+num=int(input("Enter a number: "))
+print("Multiplication Table is:")
+print(num*1)
+print(num*2)
+print(num*3)
+print(num*4)
+print(num*5)
+print(num*6)
+print(num*7)
+print(num*8)
+print(num*9)
+print(num*10)
+
 '''
 Python Program to Check Prime Number
 Python program for Arithmetic Operations
