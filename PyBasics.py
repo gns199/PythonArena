@@ -200,6 +200,27 @@ for i in range(100):
         print("Even is ",i)
     else:
         print("Odd is",i)
+        
+# 31. Find Factorial of a number
+fact=1
+a=int(input("Enter a number: "))
+for i in range(a,1,-1):
+    fact=fact*i
+print("Factorial is",fact)
+# 32. Fibonacci Series
+# 33. Palindrome Number
+num=int(input("Enter a number: "))
+rev=0
+temp=num
+while(temp!=0):
+    rem=num%10
+    rev=rev*10+rem
+    num=num/10
+if(rev==num):
+    print("Same")
+else:
+    print("Not Same")
+
 '''
 Python Program to Check Prime Number
 Python program for Arithmetic Operations
@@ -211,18 +232,10 @@ Python program to print Even Numbers from 1 to 100
 Python program to print Odd Numbers from 1 to 100
 Python Program to Print Negative Numbers in a Range
 Python Program to Print Positive Numbers in a Range
-Python program to find Positive or Negative
-Python program to find Profit Or Loss
-Python program to find Square of a Number
-Python program to find Square root of a Number
 Python Program to find all divisors of an integer
 Python Program to find Compound Interest
-Python program to check Number Divisible by 5 and 11
-Python program to find Power of a Number
-Python program for Multiplication Table
 Python example to find Roots of a Quadratic Equation
 Python example to find Student Grade
-Python example to find Simple Interest
 Python Program to Read 10 Numbers and Find their Sum and Average
 Python Program to Print First 10 Even Natural Numbers
 Python Program to Print First 10 Natural Numbers
