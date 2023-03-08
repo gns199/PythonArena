@@ -208,6 +208,21 @@ for i in range(a,1,-1):
     fact=fact*i
 print("Factorial is",fact)
 # 32. Fibonacci Series
+num=int(input("Enter a number"))
+a=0
+b=1
+if(num>1):
+    print(a,b)
+    for i in range(1,num+1):
+        sum=a+b
+        a=b
+        b=sum
+        print(sum,end=" ")
+elif(num==1):
+    print(a,b)
+else:
+    print(a)
+
 # 33. Palindrome Number
 num=int(input("Enter a number: "))
 rev=0
